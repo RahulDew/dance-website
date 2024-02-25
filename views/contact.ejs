@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DASH Dance Acadmy</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/style_contact.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="/" id="logo">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_121502.png&amp;f=1&amp;nofb=1"
+          alt=""
+        />
+        <h1>DDA</h1>
+      </a>
+      <ul>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <form class="myForm" action="/contact" method="post">
+        <input
+          class="myInput"
+          type="text"
+          name="name"
+          max="200"
+          required
+          placeholder="Enter your name"
+        />
+        <input
+          class="myInput"
+          type="number"
+          name="phone"
+          required
+          placeholder="Enter your phone no."
+        />
+        <input
+          class="myInput"
+          type="email"
+          name="email"
+          max="100"
+          required
+          placeholder="Enter your email"
+        />
+        <input
+          class="myInput"
+          type="text"
+          name="address"
+          max="500"
+          required
+          placeholder="Enter your address"
+        />
+        <input
+          class="myInput"
+          type="text"
+          name="desc"
+          max="1500"
+          required
+          placeholder="Enter your message"
+        />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+    <footer id="footer">
+      Copyright © DashDanceAcademy | All Rights Reserved
+    </footer>
+  </body>
+</html>

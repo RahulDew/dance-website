@@ -1,0 +1,57 @@
+.contact-section {
+  width: 100%;
+  margin-top: 5rem;
+  min-height: 67vh;
+}
+h2 {
+  font-size: 55px;
+  margin: 2rem auto;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+p {
+  font-size: 2rem;
+  margin: 2rem auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  /* width: 66%; */
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-bottom: 3rem;
+}
+.myInput {
+  width: 50%;
+  margin: 0.5rem;
+  padding: 0.6rem 0.5rem;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 7px;
+  outline: none;
+}
+.btn {
+  margin: 1rem;
+  padding: 7px 11px;
+  font-size: 16px;
+  border-radius: 7px;
+  border: 1px solid black;
+  background-color: rgb(103, 32, 46);
+  color: whitesmoke;
+  font-weight: 550;
+  cursor: pointer;
+}
+/* #footer {
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(103, 32, 46);
+  text-align: center;
+  font-size: 28px;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+  padding-top: 3rem;
+  bottom: 0;
+  /* position: absolute; 
+} */
